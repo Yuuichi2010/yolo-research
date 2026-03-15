@@ -1,0 +1,11 @@
+path: C:/Users/Yukih/yolo_project/datasets/voc_vehicles
+
+train: images/train
+val:   images/val
+
+nc: 4
+names:
+  0: car
+  1: bus
+  2: motorbike
+  3: bicycle
