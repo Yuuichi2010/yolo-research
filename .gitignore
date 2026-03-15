@@ -1,0 +1,98 @@
+# ==============================
+# DATASETS
+# ==============================
+datasets/
+data/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# ==============================
+# MODEL WEIGHTS
+# ==============================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.weights
+
+# ==============================
+# TRAINING OUTPUT
+# ==============================
+runs/
+outputs/
+results/
+checkpoints/
+
+# ==============================
+# CACHE
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cache
+.pytest_cache/
+
+# ==============================
+# LOG FILES
+# ==============================
+*.log
+wandb/
+mlruns/
+tensorboard/
+
+# ==============================
+# NOTEBOOK CHECKPOINTS
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# SYSTEM FILES
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# PYTHON ENVIRONMENT
+# ==============================
+.env
+venv/
+env/
+conda-env/
+*.egg-info/
+dist/
+build/
+# dataset
+datasets/
+*.jpg
+*.png
+*.txt
+*.cache
+
+# training output
+runs/
+
+# model weights
+*.pt
+*.pth
+*.onnx
+
+# python cache
+__pycache__/
+*.pyc
+
+# environment
+.env
+.venv
